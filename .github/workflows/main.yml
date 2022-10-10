@@ -27,4 +27,4 @@ jobs:
         with:
           name: java-app
           path: |
-            todo/**/*.tar
+            '${{ github.workspace }}/mail-service/target/docker/todo/mail-service/tmp/*.tar'
