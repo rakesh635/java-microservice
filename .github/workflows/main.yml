@@ -19,7 +19,8 @@ jobs:
           java-version: '11'
 
       - name: Build with Maven
-        run: package-projects.sh
+        run: ./package-projects.sh
+        shell: bash
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
