@@ -11,3 +11,5 @@ mvn -DskipTests=true -f ./user-service/pom.xml  -Pdockerimage docker:build
 mvn -DskipTests=true -f ./api-gateway/pom.xml  -Pdockerimage docker:build 
 mvn -DskipTests=true -f ./admin-server/pom.xml  -Pdockerimage docker:build 
 mvn -DskipTests=true -f ./mail-service/pom.xml  -Pdockerimage docker:build
+pwd
+ls -ltrha
